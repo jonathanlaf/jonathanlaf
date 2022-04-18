@@ -1,4 +1,6 @@
-### Hi there 👋
+## Hi there, I'm Jonathan Lafleur 👋 
+
+I'm a backend developer and consultant in technologies. I love to solve problems and automate your day to day tasks. I started my journey almost two decades ago, and now I own two comapanys, the first one [The Kraken Web Company Inc.](https://github.com/the-kraken-web-company) is specialised web development using PHP and NodeJS for backend solution and JavaScript / SASS for frontend solution. The second one [Powered Software Inc.](https://github.com/PoweredSoft) is specialised in digital transformation, creating solid devops solution and automation for your company. 
 
 <!--
 **jonathanlaf/jonathanlaf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
