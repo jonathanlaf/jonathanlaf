@@ -1,0 +1,30 @@
+{
+  "taps": ["homebrew/cask", "homebrew/cask-fonts"],
+  "packages": [
+    { "name": "git",      "brew": "git",     "apt": "git" },
+    { "name": "jq",       "brew": "jq",      "apt": "jq" },
+    { "name": "curl",     "brew": "curl",    "apt": "curl" },
+    { "name": "fzf",      "brew": "fzf",     "apt": "fzf" },
+    { "name": "gitmux",   "brew": "gitmux",  "go": "github.com/arl/gitmux@latest" },
+    { "name": "yq",       "brew": "yq"},
+    { "name": "ripgrep",  "brew": "ripgrep", "apt": "ripgrep" }
+  ],
+  "casks": [
+    { "name": "rectangle", "brew_cask": "rectangle" }
+  ],
+  "curl_installers": [
+    {
+      "name": "oh-my-zsh",
+      "if_missing": "~/.oh-my-zsh",
+      "url": "https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh",
+      "sh_flags": ""
+    }
+  ],
+  "git_installers": [
+    {
+      "name": "tmux-tpm",
+      "if_missing": "~/.tmux/plugins/tpm",
+      "repo": "https://github.com/tmux-plugins/tpm"
+    }
+  ]
+}

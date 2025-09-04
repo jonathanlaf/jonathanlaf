@@ -1,0 +1,40 @@
+[credential]
+	# or: helper = manager
+	helper = /usr/local/share/gcm-core/git-credential-manager
+
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+
+[user]
+	email = me@jonathanlafleur.ca
+	name = Jonathan Lafleur
+
+[init]
+	defaultBranch = main
+
+[core]
+	editor = code --wait
+
+[diff]
+	tool = vscode
+
+[difftool]
+	prompt = false
+	trustExitCode = true
+
+[difftool "vscode"]
+	cmd = code --wait --diff "$LOCAL" "$REMOTE"
+
+[merge]
+	tool = vscode
+	conflictStyle = diff3
+
+[mergetool]
+	prompt = false
+	keepBackup = false
+
+[mergetool "vscode"]
+	cmd = code --wait "$MERGED"
+
+[pull]
+	rebase = false

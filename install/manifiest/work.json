@@ -1,0 +1,21 @@
+{
+  "packages": [
+    { "name": "awscli",      "brew": "awscli",      "apt": "awscli" },
+    { "name": "azure-cli",   "brew": "azure-cli",   "apt": "azure-cli" },
+    { "name": "kubectl",     "brew": "kubectl",     "apt": "kubectl" },
+    { "name": "helm",        "brew": "helm",        "apt": "helm" }
+  ],
+  "casks": [
+    { "name": "iterm2",     "brew_cask": "iterm2" },
+    { "name": "visual-studio-code", "brew_cask": "visual-studio-code" }
+  ],
+  "curl_installers": [
+    {
+      "name": "aws-vault",
+      "if_missing": "/usr/local/bin/aws-vault",
+      "url": "https://github.com/99designs/aws-vault/releases/latest/download/aws-vault-darwin-amd64",
+      "destination": "/usr/local/bin/aws-vault",
+      "chmod": "0755"
+    }
+  ]
+}
